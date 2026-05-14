@@ -31,3 +31,48 @@ has_iphone_15 = True
 print(f"second item in store: {inventory[1]}")
 print(f"total numbers of items in inventory: {total_items}")
 print(f"has_iphone_15? {has_iphone_15} and its type is: {type(has_iphone_15)}")
+
+iphone_15_stock = 0
+costumer_wants = 1
+if iphone_15_stock >= costumer_wants:
+    print("sales succesful! processing order...")
+    iphone_15_stock = iphone_15_stock - costumer_wants
+    print(f"remaining stok: {iphone_15_stock}")
+else:
+    print("sorry, we are out of stock!")
+
+price = 100
+quantity = 3
+if quantity > 5:
+    print("you got 20% discount!")
+elif quantity >= 2:
+    print("you got 10% discount!")
+else:
+    print("no discount this time.")
+
+if is_student == True and quantity>2:
+    print("special student offer: you got free screen protector!")
+else:
+    print("regular order processing.")
+
+city = "Batumi"
+total_price = 150
+if city == "Tbilisi" or total_price > 100:
+    print("free shipping activated!")
+else:
+    print("shipping cost: 5 GEL")
+
+is_employee = False
+position = "Manager"
+if is_employee:
+    print("welcome to the system!")
+    if position == "Manager":
+        print("acces granted to all financial reports.")
+    else:
+        print("acces granted only to inventory stock")
+else:
+    print("acess denied! you are not our an employee.")
+
+
+
+
