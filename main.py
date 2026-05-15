@@ -73,6 +73,15 @@ if is_employee:
 else:
     print("acess denied! you are not our an employee.")
 
+items = ["iphone 15", "macbook air", "airpods pro", "apple watch"]
+print("cheking store inventory:")
+for item in items:
+    print(f"product in stock: {item}")
+
+prices = [100, 250, 500]
+for price in prices:
+    print(f"price tag: {price} GEL")
+
 
 
 
