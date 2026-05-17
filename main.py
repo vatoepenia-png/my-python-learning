@@ -82,6 +82,50 @@ prices = [100, 250, 500]
 for price in prices:
     print(f"price tag: {price} GEL")
 
+prices = [1200, 2500, 350, 400]
+total_sum = 0
+for price in prices:
+    total_sum = total_sum + price
+print(f"total inventory value: {total_sum} GEL")
+
+queue_length = 5
+while queue_length > 0:
+    print(f"serving costumer. people left in queue: {queue_length}")
+    queue_length = queue_length - 1
+print("all costumers served!")
+
+def calculate_tax(price):
+    tax = price * 0.18
+    return tax
+iphone_15_tax = calculate_tax(2500)
+macbook_tax = calculate_tax(4000)
+
+print(f"tax for iphone:{iphone_15_tax} GEL")
+print(f"tax for macbook:{macbook_tax} GEL")
+
+def calculate_discount(price):
+    discount = price * 0.10
+    return discount
+iphone_15_discount = calculate_discount(2500)
+macbook_discount = calculate_discount(4000)
+
+print(f"discount price for iphone:{iphone_15_discount} GEL")
+print(f"discount price for macbook:{macbook_discount} GEL")
+
+products = {
+    "iphone_15": 2500,
+    "macbook_air": 4000,
+    "airpods_pro": 700
+}
+iphone_price = products["iphone_15"]
+print(f"the price of iphone 15 is: {iphone_price} GEL")
+
+products["apple_watch"] = 900
+print(products)
+
+
+
+
 
 
 
