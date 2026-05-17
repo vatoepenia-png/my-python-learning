@@ -122,6 +122,15 @@ print(f"the price of iphone 15 is: {iphone_price} GEL")
 
 products["apple_watch"] = 900
 print(products)
+user_choise = input("enter the product name you want to buy: ").replace(" ", "_").lower()
+if user_choise in products:
+    price = products[user_choise]
+    print(f"the price of {user_choise} is {price} GEL. processing order...")
+else:
+    print(f"sorry, we don't have '{user_choise}' in our store")
+
+
+
 
 
 
