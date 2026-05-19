@@ -1,11 +1,11 @@
 {
     "iphone_15": {
         "price": 2500,
-        "quantity": 4
+        "quantity": 9
     },
     "macbook_air": {
         "price": 4000,
-        "quantity": 3
+        "quantity": 10
     },
     "airpods_pro": {
         "price": 700,
