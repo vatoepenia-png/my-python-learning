@@ -1,5 +1,18 @@
 {
-    "iphone_15": 2500,
-    "macbook_air": 3900,
-    "airpods_pro": 500
+    "iphone_15": {
+        "price": 2500,
+        "quantity": 4
+    },
+    "macbook_air": {
+        "price": 4000,
+        "quantity": 3
+    },
+    "airpods_pro": {
+        "price": 700,
+        "quantity": 10
+    },
+    "apple_watch": {
+        "price": 900,
+        "quantity": 7
+    }
 }
